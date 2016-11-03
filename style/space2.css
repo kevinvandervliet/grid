@@ -1,0 +1,84 @@
+
+		body {
+			background-image: url(../images/bg.png);
+			font-family: Tahoma;
+		}
+		
+		#frame {
+			background-color: rgba(255,200,200,0.3);
+			margin: 0px auto;
+			width: 900px;
+			height: 517px;
+		}
+		
+		header nav ul {
+			list-style-type: none;
+			background-color: rgba(255,255,200,0.3);
+			margin: 0;
+			padding: 0;
+			height: 40px;
+			text-decoration: none;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+		
+		#content {
+			margin: 0px auto;
+			display: flex;
+			flex-direction: row;
+			margin-left: 10px;
+			margin-top: 15px;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin-left: 10px;
+			height: 40px;
+			line-height: 40px;
+		}
+		
+		nav li a {
+			margin-left: 0px;
+			color: #000000;
+			margin-right: 10px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+			
+		main{
+			border: 1px black solid;
+			background-color: rgba(200,200,255,0.3);
+			width: 650px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		aside{
+			border: 1px black solid;
+			background-color: rgba(200,255,200,0.3);
+			width: 250px;
+			margin-right: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		body article {
+			background-color: rgba(200,200,200,0.6);
+		}
+		
+		header {
+			padding-top: 5px;
+		}
+		
+		footer {
+			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bold;
+			margin-left: 8px;
+			margin-right: 8px;
+		}
+		
+		h2{
+			text-align: center;
+			font-size: 1.8em;
+		}

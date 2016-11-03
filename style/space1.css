@@ -1,0 +1,87 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/bg.png");
+	font-family: Tahoma;
+}
+
+.frame{
+	background-color: rgba(0,128,0,0.4);
+	margin: 0px auto;
+	width: 609px;
+    height: 100%;
+    padding-top: 19px;
+	
+	/* put css-rules in this ccs-block here below */
+	
+}
+
+div.h1{
+	background-color: rgba(0,32,0,0.4);
+	line-height: 80px;
+	width: 589px;
+	height: 80px;
+	margin-left: 11px;
+}
+
+h1
+{
+	margin-left: 20px;
+}
+
+
+h2 {
+	line-height: 30px;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	
+	/* put css-rules in this ccs-block here below */
+}
+
+div.border{
+	border-radius: 0px;
+	border: 4px;
+	border-style: solid;
+	margin-left: 10px;
+	width: 581px;
+	border-color: purple;
+	margin-top: 10px;
+	padding-bottom: 2px;
+}
+
+p{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	width: 569px;
+	margin-left: 10px;
+	padding: 10px;
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+
+div.container1{
+	margin-top: 30px;
+}
+
+div.container2{
+	margin-top: 10px;
+}
+
+div.container3{
+	margin-top: 10px;
+}
+
+div.container4{
+	margin-top: 10px;
+}
+
+div.container5{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
